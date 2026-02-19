@@ -1,0 +1,15 @@
+You are choosing the best OpenAI TTS voice for a video narration.
+
+VOICE OPTIONS (each voice has a vibe and use case):
+{voice_descriptions}
+
+CONTEXT:
+- User's narration instructions: {instructions}
+- Product spec / PDF content (if any): {pdf_content}
+- Generated narration text (preview): {narration_text}
+
+TASK: Pick the single best voice from the list above for this video. Consider the tone of the instructions, the content of the spec sheet, and the style of the narration text.
+
+Respond with valid JSON only, no other text. Use this exact format:
+{"voice": "<voice_name>", "explanation": "<2-4 sentences explaining why this voice fits best>"}
+Voice name must be one of the keys from the voice options (e.g. alloy, nova, onyx).
