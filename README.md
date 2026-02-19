@@ -1,6 +1,6 @@
 # AI Video Narrator
 
-A React app that adds AI-generated narration to your videos. Upload a video, describe how you want it narrated, and the app uses OpenAI to write and speak the script, then mixes it with your video—all in the browser with no backend.
+A React app that adds AI-generated narration to your videos. Upload a video, describe how you want it narrated, and the app uses OpenAI to write and speak the script, then mixes it with your video—all in the browser with no backend. There's also an option to add a product spec pdf, to be used for videos intended as product promotion and marketing.
 
 ## Features
 
