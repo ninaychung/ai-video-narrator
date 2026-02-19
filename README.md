@@ -4,10 +4,10 @@ A React app that adds AI-generated narration to your videos. Upload a video, des
 
 ## Features
 
-- **Upload & analyze** – Upload a video; the app samples 20 frames evenly over the duration for context.
+- **Upload & analyze** – Upload a video; the app samples 20 frames evenly over the duration for context.You can also upload a product specs pdf to use in the narration prompt.
 - **Narration length** – Target length is computed from video duration (100 words per minute) and passed into the prompt.
 - **AI narration text** – Instructions + frame images go to OpenAI’s vision model; you get editable narration text.
-- **AI narration audio** – Text is turned into speech with OpenAI TTS (voice: **nova**).
+- **AI narration audio** – Text is turned into speech with OpenAI TTS. User can select a voice or ask for a recommended voice
 - **Audio mixing** – Video-editor style UI with separate volume sliders for video audio and AI narration.
 - **Timeline** – Single timeline; click to seek. Preview plays video + narration in sync (with your volume mix) before export.
 - **Export** – Merge is done with **ffmpeg.wasm** (fast, no real-time playback). Output is MP4. Download uses the name: `videofilename_ai_narration_YYYY-MM-DD_HH-MM-SS.mp4`.
